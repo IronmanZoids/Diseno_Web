@@ -1,6 +1,7 @@
+
 <h1>Taqueria muy rica</h1>
 <h3> Los buenos </h3>
-<img src="tacos.jpg" alt="Los buenos tecos del rumbo" width="400px">
+<img src="tacos.jpg" alt="Los buenos tecos del rumbo" width="200px">
 <h2>MENU</h2>
 <h3>Basicos</h3>
 <ul>
@@ -17,4 +18,81 @@
     <dd>Tortilla de harina, pastor, suadero</dd>
     <dt>Alambre</dt>
     <dd>Tortilla de harina, pimiento rojo, quesillo, bistec </dd>
-</dt>
+</dt> <br> <br>
+<table  border="1"> 
+    <tr>
+        <th colspan="5">Bebidas</th>
+    </tr>
+    <tr >
+        <th colspan="3"></th> 
+        <th>Vaso</th>
+        <th>Litro</th>
+    </tr>
+    <tr >
+        <td rowspan="6">Aguas</td>
+        <td rowspan="3">Crema</td> 
+        <td>Frutas</td>
+        <td>20</td>
+        <td>40</td>
+    </tr>
+    <tr>
+        <td>Horchata</td>
+        <td>25</td>
+        <td>45</td>
+    </tr>
+    <tr>
+        <td>Fresa</td>
+        <td>15</td>
+        <td>30</td>
+    </tr>
+    <tr>
+         <td rowspan="3">De <br> agua</td>
+        <td>Limon</td>
+        <td>15</td>
+        <td>40</td>
+    </tr>
+    <tr>
+        <td>Jamaica</td>
+        <td>18</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Naranja</td>
+        <td>23</td>
+        <td>35</td>
+    </tr>
+</table>  <hr>
+
+<h2>Ordena Ahora</h2>
+<form action="https://formspree.io/f/xqkobwpz" method="POST" >
+    Nombre: <input type="text" name="nombre" placeholder="Nombre Apellido" size="30"> <br>
+    Direccón: <input type="text" name="direccion" placeholder="Calle, num, alcadia, estado, cp " size="50"><br>
+    Telefono: <input type="tel" name="telefono" value="+52 (55) " minlength="17" maxlength="17"><br>
+    Correo electronico <input type="email" name="email" ><br>    
+
+    Taco: 
+    <select name="taco" >
+        <optgroup label="Tacos"> 
+        <option value="Suadero">Suadero</option>
+        <option value="Pastor">Pastor</option>
+        <option value="Campechanos">Campechanos</option></optgroup>
+            <optgroup label="Especiales"> 
+        <option value="Gringa">Gringa</option>
+        <option value="Campechano">Campechano</option>
+        <option value="Alambre">Alambre</option> </optgroup>
+    </select> 
+    Cuantos: <input type="number" name="cuantos" min="0" max="50">   <br>
+
+    Cebolla:  <input type="radio" name="Cebolla" value="Cebolla" > <br>
+    Cilantro: <input type="radio" name="Cilantro" value="Cilantro" > <br>
+    Limones:  <input type="radio" name="Limones" value="Limones" >  <br>
+    Salsa: 
+        Verde <input type="radio" name="salsa"  value="Verde">
+        Roja <input type="radio" name="salsa"  value="Rojo"> <br>
+
+        <br><br>Tarea las bebidas <br><br>
+
+    <br><br><input type="submit" value="Ordena ya!">
+    <input type="reset" value="Borrar todo Ahora">
+</form>
+<br><br><br>
