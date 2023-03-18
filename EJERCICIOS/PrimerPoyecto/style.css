@@ -1,0 +1,25 @@
+p{
+    text-align: center;
+}
+a{
+   color: brown;
+    text-decoration: none;
+}
+.gdlr-blog-thumbnail{
+    align-items: center;
+}
+p{ 
+    letter-spacing: 3px;  
+    word-spacing: 5px;
+    font-family: tor;
+}
+*{
+    font-family: 'MuseoModerno', cursive;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: #2BD9FE;
+    color: #534D41;
+}
